@@ -20,6 +20,41 @@ public class Weapon : MonoBehaviour
     public AudioClip shootSfx;
     private AudioSource audioSource;
 
+    public void UpdateStats()
+        {
+            if (isPlayer)
+            {
+                if (Player.WeaponLevel == 2)
+                {
+                    bulletSpeed = 40f;
+                    shootRate = 0.2f;
+                    maxAmmo = 300;
+                    curAmmo = maxAmmo;
+                }
+                else if (Player.WeaponLevel == 3)
+                {
+                    bulletSpeed = 500f;
+                    shootRate = 1f;
+                    maxAmmo = 400;
+                    curAmmo = maxAmmo;
+                }
+                else if (Player.WeaponLevel == 4)
+                {
+                    bulletSpeed = 30f;
+                    shootRate = 1f;
+                    maxAmmo = 20;
+                    curAmmo = maxAmmo;
+                }
+                else if (Player.WeaponLevel == 5)
+                {
+                    bulletSpeed = 200f;
+                    shootRate = 0.1f;
+                    maxAmmo = 1;
+                    curAmmo = maxAmmo;
+                    infiniteAmmo = true;
+                }
+            }
+        }
     void Awake ()
     {
         // are we attached to the player?
@@ -47,7 +82,7 @@ public class Weapon : MonoBehaviour
         lastShootTime = Time.time;
         curAmmo--;
 
-        if(isPlayer)
+        if((isPlayer)&& (!infiniteAmmo))
             GameUI.instance.UpdateAmmoText(curAmmo, maxAmmo);
 
         audioSource.PlayOneShot(shootSfx);

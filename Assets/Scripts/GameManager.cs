@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
   //  public int scoreToWin;
-    public static int curScore=200;
+    public static int curScore;
 
     public bool gamePaused; 
     public Player Player;

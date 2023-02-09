@@ -29,7 +29,9 @@ public class GameUI : MonoBehaviour
 
     // instance
     public static GameUI instance;
-    private float CostPrice = 30+Mathf.Pow(Player.WeaponLevel-1,3)*10;
+
+    public int CostPrice { get; private set; }
+
     void Awake ()
     {
         // set the instance to this script
@@ -40,6 +42,7 @@ public class GameUI : MonoBehaviour
     public void UpdateShop()
     {
         int New = Player.WeaponLevel + 1;
+        float CostPrice = 30+Mathf.Pow(Player.WeaponLevel-1,3)*10;
         if (Player.WeaponLevel <5){
         Level.text = "Upgrade: Level " + New;
         Cost.text = "Cost: "+CostPrice+" Score";
@@ -48,12 +51,14 @@ public class GameUI : MonoBehaviour
         Level.text = "Upgrade: Level 5";Cost.text="MAXED";
     }
     }
-    public void BuyUpgrade(){
+    public void BuyUpgrade(Weapon weapon)
+    {
         if ((GameManager.curScore >= CostPrice)&&(Player.WeaponLevel < 5)){
             Player.WeaponLevel++;
             GameManager.curScore=GameManager.curScore-(int)CostPrice;
             OnResumeButtonShop();
             UpdateScoreText(GameManager.curScore);
+            weapon.UpdateStats();
         }
     }
 
