@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [Header("Stats")]
     public int curHp;
     public int maxHp;
-    public static int WeaponLevel;
+    public static int WeaponLevel=1;
 
     [Header("Movement")]
     public float moveSpeed;             // movement speed in units per second
@@ -29,7 +29,6 @@ public class Player : MonoBehaviour
     void Awake ()
     {
         // get the components
-        Debug.Log(WeaponLevel);
         cam = Camera.main;
         rig = GetComponent<Rigidbody>();
         weapon = GetComponent<Weapon>();

@@ -40,14 +40,21 @@ public class GameUI : MonoBehaviour
     public void UpdateShop()
     {
         int New = Player.WeaponLevel + 1;
+        if (Player.WeaponLevel <5){
         Level.text = "Upgrade: Level " + New;
         Cost.text = "Cost: "+CostPrice+" Score";
     }
+    else{
+        Level.text = "Upgrade: Level 5";Cost.text="MAXED";
+    }
+    }
     public void BuyUpgrade(){
-        if (GameManager.curScore >= CostPrice){
+        if ((GameManager.curScore >= CostPrice)&&(Player.WeaponLevel < 5)){
             Player.WeaponLevel++;
-            GameManager.curScore=GameManager.curScore - (int)CostPrice;
+            Debug.Log(Player.WeaponLevel);
+            GameManager.curScore=GameManager.curScore-(int)CostPrice;
             OnResumeButtonShop();
+            UpdateScoreText(GameManager.curScore);
         }
     }
 
