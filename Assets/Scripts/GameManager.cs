@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
   //  public int scoreToWin;
-    public int curScore;
+    public static int curScore;
 
-    public bool gamePaused;
+    public bool gamePaused; 
     public Player Player;
 
     // instance

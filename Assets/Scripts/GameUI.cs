@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Runtime.CompilerServices;
 
 public class GameUI : MonoBehaviour
 {
@@ -28,21 +29,27 @@ public class GameUI : MonoBehaviour
 
     // instance
     public static GameUI instance;
+    private float CostPrice = 30+Mathf.Pow(Player.WeaponLevel-1,3)*10;
     void Awake ()
     {
         // set the instance to this script
-        instance = this;
+        instance = this; 
 
     }
 
     public void UpdateShop()
     {
         int New = Player.WeaponLevel + 1;
-        float CostPrice = 30+Mathf.Pow(New-2,3)*10;
         Level.text = "Upgrade: Level " + New;
         Cost.text = "Cost: "+CostPrice+" Score";
     }
-
+    public void BuyUpgrade(){
+        if (GameManager.curScore >= CostPrice){
+            Player.WeaponLevel++;
+            GameManager.curScore=GameManager.curScore - (int)CostPrice;
+            OnResumeButtonShop();
+        }
+    }
 
     // updates the health bar fill
     public void UpdateHealthBar (int curHp, int maxHp)
