@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# UNT0001: Empty Unity message
+dotnet_diagnostic.UNT0001.severity = none
