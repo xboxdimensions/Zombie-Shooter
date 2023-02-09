@@ -76,7 +76,7 @@ Debug.Log("e");
 
     public void TakeDamage (int damage)
     {
-        curHp -= damage;
+        curHp -= Player.WeaponLevel*damage;
 
         if(curHp <= 0)
             Die();

@@ -39,7 +39,7 @@ public class RandomSpawn : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        SpawnerHealth -= damage;
+        SpawnerHealth -= Player.WeaponLevel*damage;
         if (SpawnerHealth <= 0)
             Die();
     }
