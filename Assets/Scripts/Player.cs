@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     [Header("Stats")]
     public int curHp;
     public int maxHp;
-    public int level=1;
+    public static int WeaponLevel;
 
     [Header("Movement")]
     public float moveSpeed;             // movement speed in units per second
@@ -22,12 +22,14 @@ public class Player : MonoBehaviour
     private Camera cam;
     private Rigidbody rig;
     private Weapon weapon;
+    [Header("Other")]
     public GameManager GameManager;
     public GameObject ShopScreen;
     public static bool InShop = false;
     void Awake ()
     {
         // get the components
+        Debug.Log(WeaponLevel);
         cam = Camera.main;
         rig = GetComponent<Rigidbody>();
         weapon = GetComponent<Weapon>();
@@ -42,6 +44,7 @@ public class Player : MonoBehaviour
             ShopScreen.SetActive(true);
             InShop = true;
             GameManager.instance.TogglePauseGame();
+            GameUI.instance.UpdateShop();
 
         }
     }

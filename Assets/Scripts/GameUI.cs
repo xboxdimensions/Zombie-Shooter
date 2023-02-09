@@ -18,6 +18,8 @@ public class GameUI : MonoBehaviour
 
     [Header("Shop")]
     public GameObject ShopScreen;
+    public TextMeshProUGUI Level;
+    public TextMeshProUGUI Cost;
 
     [Header("End Game Screen")]
     public GameObject endGameScreen;            // end game screen object
@@ -33,7 +35,13 @@ public class GameUI : MonoBehaviour
 
     }
 
-
+    public void UpdateShop()
+    {
+        int New = Player.WeaponLevel + 1;
+        float CostPrice = 30+Mathf.Pow(New-2,3)*10;
+        Level.text = "Upgrade: Level " + New;
+        Cost.text = "Cost: "+CostPrice+" Score";
+    }
 
 
     // updates the health bar fill
