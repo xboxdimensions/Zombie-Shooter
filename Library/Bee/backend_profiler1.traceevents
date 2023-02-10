@@ -1,637 +1,370 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1676023803109791, "dur":2371, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803112171, "dur":2661, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1676023803114847, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1676023803114879, "dur":689, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1676023803115613, "dur":2425, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803118038, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803767765, "dur":220, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803767985, "dur":164, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768150, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768155, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768172, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768174, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768187, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768189, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768197, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768199, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768208, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768210, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768219, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768221, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768229, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768231, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768240, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768262, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803768287, "dur":3355, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1676023803117076, "dur":1253, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803118329, "dur":5621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803123951, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1676023803124152, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803124269, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803128637, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1676023803133624, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1676023803133706, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803133784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803134759, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1676023803137373, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676023803137453, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803137505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1676023803137764, "dur":529089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1676023803666909, "dur":100821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803116639, "dur":1600, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803118240, "dur":5712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803123953, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1676023803124173, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803124390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803132513, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1676023803135899, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1676023803135991, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803136040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803136058, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1676023803139545, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter.exe" }}
-,{ "pid":12345, "tid":2, "ts":1676023803139626, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803139698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803139711, "dur":5741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter.exe" }}
-,{ "pid":12345, "tid":2, "ts":1676023803145523, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803145610, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803145666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803145681, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803149683, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803149799, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803149865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803149885, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803153119, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803153206, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803153256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803153271, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803156635, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803156723, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803156780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803156797, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803160104, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803160267, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803160332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803160349, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803163662, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803163743, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803163914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803163931, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803167695, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803167773, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803167829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803167845, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803171226, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803171300, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803171396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803171413, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803174804, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803174901, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803175011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803175027, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803178594, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803178674, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803178731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803178746, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803182698, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803182780, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803182838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803182855, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803186377, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803186453, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803186513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803186530, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803190649, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803190722, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803190782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803190801, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803194594, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803194670, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803194722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803194739, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803198144, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803198198, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803198297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803198314, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803201911, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803201987, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803202091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803202109, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803206304, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803206382, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803206462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803206475, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803210368, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803210645, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803210818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803210835, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803213903, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803214133, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803214188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803214200, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803217164, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803217448, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803217544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803217562, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803220913, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803221327, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803221395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803221412, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803225174, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803225251, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803225307, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803225332, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803228672, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803228752, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803228812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803228830, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803232159, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803232248, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803232308, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803232327, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803236242, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803236400, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803236595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803236615, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803240380, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803240455, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803240586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803240600, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803245000, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803245260, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803245328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803245345, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1676023803248205, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1676023803248306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803248410, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1676023803251457, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803251530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803251544, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803256307, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1676023803256545, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803256596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803256610, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1676023803259086, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803259169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803259184, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803262311, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803262443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803262457, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1676023803265092, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1676023803265146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803265157, "dur":4011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1676023803269283, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1676023803269396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1676023803269412, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1676023803272516, "dur":495247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803116315, "dur":1787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803118107, "dur":5822, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803123949, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1676023803123951, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803124064, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1676023803124068, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803124268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803126652, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/app.info" }}
-,{ "pid":12345, "tid":3, "ts":1676023803132480, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1676023803132591, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803132662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803132769, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1676023803135612, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676023803135693, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803135745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803135765, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1676023803138896, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1676023803138979, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803139029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1676023803139041, "dur":293955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1676023803433109, "dur":334624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803116804, "dur":1494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803118299, "dur":5649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803123949, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1676023803124348, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803124403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803133684, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1676023803136696, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1676023803136787, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803136839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803136855, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1676023803139807, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1676023803139888, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803139956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1676023803140632, "dur":480226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1676023803620949, "dur":146789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803116573, "dur":1611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803118184, "dur":5767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803123952, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1676023803124223, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803124290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803129868, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1676023803133172, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1676023803133350, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803133447, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803133468, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1676023803136994, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803137088, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803137158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803137616, "dur":6825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803144519, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803144594, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803144650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803144751, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803148008, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803148085, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803148137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803148153, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803151321, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803151397, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803151458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803151475, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803154759, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803154841, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803154902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803154917, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803158545, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803158590, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803158668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803158679, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803162115, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803162732, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803162806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803162822, "dur":4136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803167033, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803167104, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803167161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803167177, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803171089, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803171160, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803171221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803171238, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803174650, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803174724, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803174937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803174954, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803178713, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803178792, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803178853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803178870, "dur":3786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803182736, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803182806, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803182859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803182875, "dur":3417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803186369, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803186441, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803186499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803186516, "dur":4288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803190883, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803190964, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803191025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803191044, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803194754, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803194832, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803194899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803194914, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803198382, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803198439, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803198480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803198491, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803202181, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803202252, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803202313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803202330, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803206114, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803206185, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803206241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803206257, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803209678, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803210343, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803210418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803210435, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803213865, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803214177, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803214344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803214362, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803217390, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803217618, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803217675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803217686, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803221203, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803221273, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803221334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803221351, "dur":3794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803225225, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803225297, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803225347, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803225366, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803228798, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803228849, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803228902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803228913, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803232224, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803232302, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803232355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803232369, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803236450, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803236541, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803236616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803236632, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803241376, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803241426, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803241544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803241559, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803244750, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803245218, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803245306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803245324, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1676023803248957, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1676023803249014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803249025, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":5, "ts":1676023803252145, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1676023803252224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803252240, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1676023803256046, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1676023803256304, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803256392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803256411, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1676023803258922, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.resource" }}
-,{ "pid":12345, "tid":5, "ts":1676023803258984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803258999, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.resource" }}
-,{ "pid":12345, "tid":5, "ts":1676023803261496, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1676023803261560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803261571, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets" }}
-,{ "pid":12345, "tid":5, "ts":1676023803264088, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1676023803264157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1676023803264168, "dur":11250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1676023803275464, "dur":492298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803117014, "dur":1299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803118314, "dur":5629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803123949, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1676023803124155, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803124376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803131720, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1676023803134632, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1676023803134729, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803134781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803134888, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1676023803137880, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1676023803137985, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803138039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1676023803138051, "dur":629601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1676023803767706, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":6, "ts":1676023803767708, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803117230, "dur":1110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803118340, "dur":5606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803123950, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1676023803124176, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803124283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803129506, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1676023803132821, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1676023803132920, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803132985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803133002, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1676023803136945, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1676023803137031, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803137083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803137099, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1676023803140370, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803140476, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803140609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803140743, "dur":5745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803146571, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803146645, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803146698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803146715, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803150379, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803150462, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803150518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803150537, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803153968, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803154052, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803154135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803154152, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803157651, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803157720, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803157801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803157817, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803162220, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803162322, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803162436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803162452, "dur":4024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803166545, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803166617, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803166718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803166735, "dur":4027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803170841, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803170912, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803170992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803171009, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803174321, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803174418, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803174519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803174536, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803178100, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803178177, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803178241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803178305, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803181829, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803181900, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803181956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803182026, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803185443, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803185515, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803185570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803185630, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803188982, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803189052, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803189110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803189127, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803192665, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803192740, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803192800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803192817, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803196718, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803196794, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803196851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803196870, "dur":4957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803201900, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803201974, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803202033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803202050, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803205330, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803205439, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803205507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803205524, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803210725, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803211025, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803211101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803211117, "dur":3000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803214194, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803214521, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803214591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803214607, "dur":3449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803218126, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803218356, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803218456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803218468, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803221685, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803221737, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803221869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803221882, "dur":6763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803228725, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803228806, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803228874, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803228900, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803232384, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803232455, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803232511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803232526, "dur":6396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803238980, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803239056, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803239107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803239125, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803242267, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803242336, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803242387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803242402, "dur":7856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1676023803250328, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1676023803250413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803250426, "dur":18461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1676023803269008, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1676023803269095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803269111, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":7, "ts":1676023803272390, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1676023803272624, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803272698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1676023803272722, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1676023803275219, "dur":492516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803117562, "dur":791, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803118353, "dur":5601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803123954, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1676023803124170, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803124269, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803129037, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1676023803132741, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1676023803132833, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803132886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803132904, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1676023803136469, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1676023803136554, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803136685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803136706, "dur":3248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1676023803140035, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803140114, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803140355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803140808, "dur":5315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803146193, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803146265, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803146317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803146336, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803149835, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803149922, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803149979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803149995, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803153540, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803153621, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803153700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803153716, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803157618, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803157690, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803157750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803157811, "dur":3674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803161560, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803161636, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803161698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803161715, "dur":4620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803166415, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803166490, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803166551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803166569, "dur":3767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803170413, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803170483, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803170542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803170558, "dur":3391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803174026, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803174100, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803174159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803174177, "dur":3308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803177557, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803177644, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803177708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803177727, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803181180, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803181259, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803181316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803181334, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803184727, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803184927, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803184999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803185016, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803188052, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803188144, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803188216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803188233, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803192410, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803192485, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803192547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803192566, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803196104, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803196157, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803196217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803196234, "dur":3850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803200217, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803200322, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803200381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803200398, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803203727, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803203802, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803203871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803203888, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803207504, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803207824, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803208019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803208036, "dur":3241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803211353, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803211634, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803211747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803211764, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803215055, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803215271, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803215331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803215364, "dur":3282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803218697, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803218947, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803219099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803219115, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803223156, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803223204, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803223272, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803223297, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803226076, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803226124, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803226197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803226209, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803230392, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803230459, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803230519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803230578, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803234251, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803234304, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803234362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803234379, "dur":5686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803240136, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803240209, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803240257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803240269, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803243875, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803243948, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803244001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803244017, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1676023803247029, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":8, "ts":1676023803247197, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803247254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803247614, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":8, "ts":1676023803250217, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1676023803250301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1676023803250316, "dur":26623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1676023803276991, "dur":490746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1676023803774356, "dur":3855, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1676025654620934, "dur":3533, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654624488, "dur":258, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676025654624782, "dur":45, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676025654624833, "dur":765, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676025654625652, "dur":1511, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654627163, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669194, "dur":126, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669320, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669344, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669511, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669532, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669537, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669546, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669548, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669557, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669559, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669567, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669569, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669576, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669578, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669588, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669590, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669598, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669614, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654669633, "dur":2747, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676025654626072, "dur":1108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654627183, "dur":6403, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633605, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633607, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633702, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633705, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633778, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633854, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654633925, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634032, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634109, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634191, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634265, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634344, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634465, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634540, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634606, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1676025654634982, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635075, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635201, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635272, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635345, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635416, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635483, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635552, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635621, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635688, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635754, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635840, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654635948, "dur":301, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636251, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636345, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636415, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636520, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636593, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636660, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636734, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636799, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636861, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654636930, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654637135, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654637217, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654637291, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638051, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638129, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638197, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638264, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638343, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638419, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638487, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638554, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638622, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638699, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638887, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654638954, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676025654639028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676025654641919, "dur":27172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676025654669137, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1676025654669139, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654626177, "dur":1012, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654627189, "dur":7929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635118, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635213, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635287, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635352, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635424, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635497, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635564, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635637, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635713, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654635786, "dur":1712, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654637499, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654637740, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654637816, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638033, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638110, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638182, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638260, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638332, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638401, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638478, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638548, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638614, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638684, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638754, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638819, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676025654638893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654640971, "dur":8386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1676025654649416, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676025654649483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654649497, "dur":5475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676025654655061, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676025654655146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676025654655164, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676025654657408, "dur":11754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654626249, "dur":955, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654627205, "dur":7911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635117, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635295, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635376, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635450, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635518, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635583, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635648, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635714, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635784, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635864, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654635946, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636040, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636134, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636233, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636313, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636383, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636461, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636529, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654636925, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676025654637140, "dur":1828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654638969, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676025654639043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676025654642878, "dur":20693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1676025654663639, "dur":5548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654626305, "dur":912, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654627217, "dur":6384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654633605, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676025654633735, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654633806, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1676025654633894, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654633976, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634056, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634124, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634211, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634284, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634357, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634470, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634544, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654634639, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654635908, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654635987, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636079, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636162, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636244, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636318, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636388, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636464, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636530, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636604, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636669, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636780, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654636924, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637129, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637214, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637285, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637695, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637772, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654637999, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638073, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638145, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638250, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638324, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638397, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638478, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638549, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638620, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654638687, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676025654639266, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654639341, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1676025654639567, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654639642, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676025654639714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654647002, "dur":8165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676025654655234, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1676025654655467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676025654655483, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1676025654659255, "dur":9933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654626365, "dur":861, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654627227, "dur":6372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654633606, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676025654633768, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654633841, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676025654633920, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634016, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634122, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634197, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634275, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634351, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634641, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634721, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634815, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634889, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654634960, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635028, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635104, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635182, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635254, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635322, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635391, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635464, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635538, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635606, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635674, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635740, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635813, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635903, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654635981, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636061, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636146, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636233, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636312, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636389, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636467, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654636922, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637153, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637231, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637303, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637372, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637660, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637735, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654637950, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654638024, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654638241, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654638317, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676025654638385, "dur":728, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654639114, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676025654639208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654645001, "dur":6579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676025654651653, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676025654651785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676025654651820, "dur":7805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676025654659685, "dur":9480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654626430, "dur":803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654627233, "dur":7234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634468, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634598, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634667, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634766, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634843, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634920, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654634990, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635062, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635133, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635206, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635279, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635348, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654635422, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654636954, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637189, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637271, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637334, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637595, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637667, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654637937, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638010, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638227, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638301, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638365, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638430, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638494, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638556, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638624, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638690, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638911, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654638977, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676025654639050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654643928, "dur":11263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1676025654655260, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1676025654655506, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676025654655581, "dur":13583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654626513, "dur":727, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654627240, "dur":6675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654633916, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634084, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634171, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634348, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634486, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634639, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634727, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634801, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634869, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654634951, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635014, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635454, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635529, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635599, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635664, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635733, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635808, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635893, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654635968, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654636059, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654636830, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654636913, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654637111, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654637182, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654637249, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654637320, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654637393, "dur":1826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676025654639219, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654639290, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1676025654639484, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654639548, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676025654639615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654645961, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676025654650829, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1676025654650898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676025654650911, "dur":12670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1676025654663633, "dur":5527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654626627, "dur":622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654627249, "dur":6348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654633606, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1676025654634002, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654634086, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676025654634168, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654634238, "dur":2400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1676025654636638, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654636711, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637129, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637232, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637310, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637389, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637649, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637724, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654637962, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638038, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638110, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638178, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638245, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638313, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638382, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638452, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638517, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638585, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638652, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638724, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1676025654638816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654640461, "dur":5760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1676025654646320, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676025654646403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654646415, "dur":8319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676025654654816, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1676025654655891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676025654655907, "dur":3063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie Shooter_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1676025654659068, "dur":10098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676025654676208, "dur":2531, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

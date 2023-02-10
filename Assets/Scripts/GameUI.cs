@@ -94,6 +94,7 @@ public class GameUI : MonoBehaviour
        // endGameHeaderText.text = won == true ? "You Win" : "You Lose";
         endGameHeaderText.color = won == true ? Color.green : Color.red;
         endGameScoreText.text = "<b>Score</b>\n" + score;
+        GameManager.curScore = 0;
     }
 
     // called when we press the "Resume" button
@@ -114,11 +115,13 @@ public class GameUI : MonoBehaviour
     public void OnRestartButton ()
     {
         SceneManager.LoadScene("Game");
+        GameManager.curScore = 0;
     }
 
     // called when we press the "Menu" button
     public void OnMenuButton ()
     {
         SceneManager.LoadScene("Menu");
+        GameManager.curScore = 0;
     }
 }
