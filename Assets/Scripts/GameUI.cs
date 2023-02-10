@@ -53,11 +53,12 @@ public class GameUI : MonoBehaviour
     }
     public void BuyUpgrade(Weapon weapon)
     {
+        float CostPrice = 30 + Mathf.Pow(Player.WeaponLevel - 1, 3) * 10;
         if ((GameManager.curScore >= CostPrice)&&(Player.WeaponLevel < 5)){
             Player.WeaponLevel++;
-            GameManager.curScore=GameManager.curScore-(int)CostPrice;
+            GameManager.curScore = GameManager.curScore - (int)CostPrice;
             OnResumeButtonShop();
-            UpdateScoreText(GameManager.curScore);
+            scoreText.text = "Score: " + GameManager.curScore;
             weapon.UpdateStats();
         }
     }

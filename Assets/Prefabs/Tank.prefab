@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acc1260a69501274dad9505ef58c1717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHp: 75
-  maxHp: 75
-  scoreToGive: 100
+  curHp: 50
+  maxHp: 50
+  scoreToGive: 15
   moveSpeed: 2
   attackRange: 3
   yPathOffset: 0.9

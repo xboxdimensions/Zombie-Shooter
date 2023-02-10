@@ -254,7 +254,7 @@ MonoBehaviour:
   maxHp: 30
   scoreToGive: 50
   moveSpeed: 3
-  attackRange: 5
+  attackRange: 3
   yPathOffset: 0.9
 --- !u!33 &3048328687512479223
 MeshFilter:
@@ -337,7 +337,7 @@ MonoBehaviour:
   curAmmo: 0
   maxAmmo: 0
   infiniteAmmo: 1
-  bulletSpeed: 200
+  bulletSpeed: 50
   shootRate: 0.01
   shootSfx: {fileID: 8300000, guid: ebb61926edf1bd946ad203fa8767e3b8, type: 3}
 --- !u!114 &4650519790668195256
