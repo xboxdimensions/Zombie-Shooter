@@ -10,3 +10,24 @@ Visit the Australian STEM Video Game Challenge webpage here to read more about t
 https://www.stemgames.org.au/students/theme
 
 Basically I made a Third person shooter game.
+
+# DISCLAIMER
+I did not make the following:
+
+the sounds
+
+the map
+
+the character/weapon models/materials
+
+basic code for: 
+
+	AI e.g. aiming
+	
+	Player movement
+	
+	shooting
+	
+Title Screen
+
+Everything else I probably made - like the shop...and the terrible camera 💀
