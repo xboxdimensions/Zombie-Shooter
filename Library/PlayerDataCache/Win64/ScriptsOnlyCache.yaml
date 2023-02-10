@@ -70,6 +70,9 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: GameUI
+    methodName: BuyUpgrade
+  - assembly: Assembly-CSharp
+    fullTypeName: GameUI
     methodName: OnResumeButtonShop
   sceneClasses:
     Assets/Scenes/Game.unity:
@@ -201,6 +204,8 @@ ScriptsOnlyBuild:
     - Class: 49
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -545,7 +550,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: beea66b32375b13c05ade6b4fd68400f
+      Hash: a59c9586d6d155d58f5c6694c0837189
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
@@ -851,7 +856,7 @@ ScriptsOnlyBuild:
     className: CinemachineTrackedDolly
   - hash:
       serializedVersion: 2
-      Hash: a36e6163bb9d3a4ae6564ba3d7ae3ef9
+      Hash: 17ea4d6cee5e548f31eb6ace312fa50e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameUI
@@ -887,7 +892,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: bed812ceabfeae2bacb50df9d3e33199
+      Hash: 4a12e87ef4d73f857e9f6b87cc8896e8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1069,4 +1074,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/William/Desktop/Build/UnityFPSCourse.exe
+  playerPath: C:/Users/William/Documents/KGSC/2022-2023/ICT/Unit 3/T1W3/Zombie_Shooter/Zombie
+    Shooter.exe

@@ -26,36 +26,36 @@ public class Weapon : MonoBehaviour
             {
                 if (Player.WeaponLevel == 2)
                 {
-                    bulletSpeed = 40f;
                     shootRate = 0.2f;
                     maxAmmo = 300;
                     curAmmo = maxAmmo;
+                shootSfx = Resources.Load<AudioClip>("Level 2");
                 GameUI.instance.UpdateAmmoText(curAmmo, maxAmmo);
             }
                 else if (Player.WeaponLevel == 3)
                 {
-                    bulletSpeed = 500f;
-                    shootRate = 1f;
+                    shootRate = 0.5f;
                     maxAmmo = 400;
                     curAmmo = maxAmmo;
+                shootSfx = Resources.Load<AudioClip>("Level 3");
                 GameUI.instance.UpdateAmmoText(curAmmo, maxAmmo);
             }
                 else if (Player.WeaponLevel == 4)
                 {
-                    bulletSpeed = 30f;
                     shootRate = 1f;
-                    maxAmmo = 20;
+                    maxAmmo = 50;
                     curAmmo = maxAmmo;
+                shootSfx = Resources.Load<AudioClip>("Level 4");
                 GameUI.instance.UpdateAmmoText(curAmmo, maxAmmo);
             }
                 else if (Player.WeaponLevel == 5)
                 {
-                    bulletSpeed = 200f;
-                    shootRate = 0.1f;
+                    shootRate = 0.4f;
                     maxAmmo = 1;
                     curAmmo = maxAmmo;
                     GameUI.instance.UpdateAmmoText(curAmmo, maxAmmo);
-                    infiniteAmmo = true;
+                shootSfx = Resources.Load<AudioClip>("Level 5");
+                infiniteAmmo = true;
                 }
             }
         }

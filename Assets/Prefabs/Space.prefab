@@ -252,9 +252,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curHp: 30
   maxHp: 30
-  scoreToGive: 50
+  scoreToGive: 20
   moveSpeed: 3
-  attackRange: 3
+  attackRange: 6
   yPathOffset: 0.9
 --- !u!33 &3048328687512479223
 MeshFilter:
@@ -337,9 +337,9 @@ MonoBehaviour:
   curAmmo: 0
   maxAmmo: 0
   infiniteAmmo: 1
-  bulletSpeed: 50
-  shootRate: 0.01
-  shootSfx: {fileID: 8300000, guid: ebb61926edf1bd946ad203fa8767e3b8, type: 3}
+  bulletSpeed: 20
+  shootRate: 0.4
+  shootSfx: {fileID: 8300000, guid: 1ea8578db37ba2145a672f37a6d04cde, type: 3}
 --- !u!114 &4650519790668195256
 MonoBehaviour:
   m_ObjectHideFlags: 0
