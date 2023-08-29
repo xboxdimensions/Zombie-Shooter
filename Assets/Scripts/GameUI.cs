@@ -95,6 +95,7 @@ public class GameUI : MonoBehaviour
         endGameHeaderText.color = won == true ? Color.green : Color.red;
         endGameScoreText.text = "<b>Score</b>\n" + score;
         GameManager.curScore = 0;
+        Player.WeaponLevel = 1;
     }
 
     // called when we press the "Resume" button
@@ -116,6 +117,7 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
         GameManager.curScore = 0;
+        Player.WeaponLevel = 1;
     }
 
     // called when we press the "Menu" button
@@ -123,5 +125,6 @@ public class GameUI : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
         GameManager.curScore = 0;
+        Player.WeaponLevel = 1;
     }
 }
